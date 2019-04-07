@@ -1,0 +1,21 @@
+matrix:
+  include:
+    language: node_js
+    node_js:
+    - 10
+    cache:
+      directories:
+      - "~/.npm"
+      - "~/.cache"
+    install:
+    - npm ci
+    before_script:
+    - npm start -- --silent &
+    script:
+    - npm run cypress:run
+    - npm run build
+deploy:
+  provider: heroku
+  api_key:
+    secure: Pz/KFMxqmXzvt/0x05cnLuEkL8jyyG7Ff1DIUe7ds6nb6FXGwUMz10lFB0mlMSw4UQymczIDUdbr5nccOZ5Mby8rrg2sz6dsAMRJckKxx8yF5h3KtrbKgxF/yqe0spdZjhO2BSjvm3gmAQsrYTY0B4ChuRzd+BNWo9KarrowSwZHYlX5I1xhABjylrtMC5fzi/C7wMVJOD9LEymqlgmb/sGbzOpoLkVbxZgPmbQiwTHB+ZFJy9KHd1YplDlQnpHOUIhQvk9skrarYUiI+/4ylSuTivwi1LTi/Av60VVaknBBTUQKaJ+QyP6FmqFFVjut1avg7fbt1lojKniIknZsXcfn0AKEb24efBYfAufgctpI/3snBHNdHMaxcxmrVZKRXqZBjX7sSXsv7zAaN/3cLn6cPMEDhCA8jebJCfwQ+dUL+AiJjCBZV03q+vRYJ6NeNgQuKxfoe8SO1JOGDhfhaEkDcwyJaoy7KJzPXvkDsKNUPz8t5M9qtgO4DDbljqmPzIX1JPCgGkzjecBLKuW/bWXqfSupnoA/h2fvLse3Qf20DOj3zQ6Rv9RQxngTmZ5mejf8fDNjMMSRwn4YrDr2ocJQbiVZHtkMWiDyUlmI20sziDtQ/PrOJc2b3FpP37CYsP2BFLl6DB7/FQ413YDK86OIdFfXyqI7mB1ojWZ//ok=
+  app: man-united-quiz  
