@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import Aux from '../../HOC/aux';
+import Welcome from '../../Components/Homepage/Welcome/welcome';
+import Description from '../../Components/Homepage/Description/description';
+import LevelChoices from '../../Components/Homepage/LevelChoices/levelChoices';
 
 class Introduction extends Component {
   render () {
     return (
       <Aux>
-        <div>WELCOME</div>
-        <div>DESCRIPTION</div>
-        <div>LEVEL CHOICES</div>
+        <Welcome />
+        <Description />
+        <LevelChoices />
       </Aux>
     );
   }
