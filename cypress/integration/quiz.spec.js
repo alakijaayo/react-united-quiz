@@ -4,6 +4,6 @@ describe('Quiz', () => {
   })
 
   it('should welcome the player to the quiz', () => {
-    cy.contains('Welcome to the Manchester United Quiz')
+    cy.contains('WELCOME')
   })
 })
