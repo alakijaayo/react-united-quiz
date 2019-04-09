@@ -30,4 +30,12 @@ describe('Quiz', () => {
   it('should ask the player to choose a level', () => {
     cy.contains('Please choose the Level you wish to play:')
   })
+
+  it('renders the initial score', () => {
+    cy.contains('Score: 0/25')
+  })
+
+  it('renders the initial question number', () => {
+    cy.contains('Question: 0/25')
+  })
 })

@@ -1,12 +1,14 @@
 import React from 'react';
 import classes from './toolbar.css';
 import Logo from '../../Logo/logo';
+import Score from '../../Count/Score/score'
+import QuestionNumber from '../../Count/QuestionNumber/questionNumber'
 
 const toolbar = (props) => (
   <header className={classes.Toolbar}>
-    <div>Q.NUMBER</div>
+    <QuestionNumber />
     <Logo />
-    <div>SCORE</div>
+    <Score />
   </header>
 )
 
