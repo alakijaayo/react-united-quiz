@@ -1,15 +1,21 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Aux from '../../HOC/aux';
 import classes from './layout.css';
 import Toolbar from '../Navigation/Toolbar/toolbar';
 
-const layout = (props) => (
-  <Aux>
-    <Toolbar />
-    <main className={classes.Content}>
-      {props.children}
-    </main>
-  </Aux>
-)
+class Layout extends Component {
+  render() {
+    return(
+      <Aux>
+        <Toolbar />
+        <main className={classes.Content}>
+          {this.props.children}
+        </main>
+      </Aux>
+    )
+  }
+}
 
-export default layout;
+
+
+export default Layout;
