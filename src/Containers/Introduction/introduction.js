@@ -7,12 +7,12 @@ import LevelChoices from '../../Components/Homepage/LevelChoices/levelChoices';
 class Introduction extends Component {
   render () {
     return (
-      <Aux>
-        <Welcome />
-        <Description />
-        <LevelChoices />
-      </Aux>
-    );
+        <Aux>
+          <Welcome />
+          <Description />
+          <LevelChoices />
+        </Aux>
+    )
   }
 }
 

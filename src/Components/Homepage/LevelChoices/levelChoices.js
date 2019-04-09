@@ -6,9 +6,9 @@ const levelChoices = (props) => {
   return (
     <div className={classes.LevelChoices}>
       <h2>Please choose the Level you wish to play:</h2>
-      <Button>Easy</Button>
-      <Button>Medium</Button>
-      <Button>Hard</Button>
+      <Button><a href="/">Easy</a></Button>
+      <Button><a href="/">Medium</a></Button>
+      <Button><a href="/">Hard</a></Button>
     </div>
   )
 }

@@ -1,5 +1,9 @@
 .LevelChoices {
   text-align: center;
   font-weight: bold;
-  
+}
+
+.LevelChoices a {
+  color: white;
+  text-decoration: none;
 }

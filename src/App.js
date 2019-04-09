@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import Layout from './Components/Layout/layout';
-import Introduction from './Containers/Introduction/introduction';
+import Quiz from './Containers/Quiz/quiz';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Layout>
-          <Introduction />
-        </Layout>
-      </div>
+      <BrowserRouter>
+        <div>
+          <Layout>
+            <Quiz />
+          </Layout>
+        </div>
+      </BrowserRouter>
     );
   }
 }
