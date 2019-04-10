@@ -6,9 +6,9 @@ import QuestionNumber from '../../Count/QuestionNumber/questionNumber'
 
 const toolbar = (props) => (
   <header className={classes.Toolbar}>
-    <QuestionNumber />
+    <QuestionNumber question={props.number} />
     <Logo />
-    <Score />
+    <Score score={props.score} />
   </header>
 )
 

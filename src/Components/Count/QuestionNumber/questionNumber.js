@@ -1,18 +1,10 @@
-import React, { Component} from 'react';
+import React from 'react';
 import Aux from '../../../HOC/aux';
 
-class QuestionNumber extends Component {
-  state = {
-    question: 0
-  }
-
-  render() {
-    return (
+const questionNumber = (props) => (
       <Aux>
-        <h4>Question: {this.state.question}/25</h4>
+        <h4>Question: {props.question}/25</h4>
       </Aux>
     )
-  }
-}
 
-export default QuestionNumber;
+export default questionNumber;
