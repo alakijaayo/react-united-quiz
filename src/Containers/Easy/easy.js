@@ -1,9 +1,24 @@
 import React, { Component } from 'react';
+import LowerToolbar from '../../Components/Navigation/LowerToolbar/lowerToolbar';
 
 class Easy extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      number: 1,
+      score: 0
+    }
+  }
+
   render() {
     return (
-      <h1>Easy</h1>
+      <div>
+        <h1>Easy</h1>
+        <LowerToolbar
+          number={this.state.number}
+          score={this.state.score} />
+      </div>
+
     )
   }
 }

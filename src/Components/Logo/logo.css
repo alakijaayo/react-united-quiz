@@ -4,6 +4,7 @@
   height: 95%;
   box-sizing: border-box;
   border-radius: 2px;
+  display: inline-block;
 }
 
 .Logo img {

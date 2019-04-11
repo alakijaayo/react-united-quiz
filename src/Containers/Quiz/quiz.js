@@ -14,7 +14,6 @@ class Quiz extends Component {
           <Route path="/easy" exact component={Easy} />
           <Route path="/medium" exact component={Medium} />
           <Route path="/hard" exact component={Hard} />
-
         </Aux>
     )
   }
