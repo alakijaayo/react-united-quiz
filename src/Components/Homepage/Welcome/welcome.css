@@ -5,3 +5,10 @@
   height: 170px;
   margin: auto;
 }
+
+@media (max-width: 850px) {
+  .Welcome {
+    font-size: 25px;
+    height: auto;
+  }
+}

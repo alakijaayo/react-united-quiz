@@ -4,3 +4,9 @@
   font-size: 12px;
   height: 170px;
 }
+
+@media (max-height: 450px) {
+  .Description {
+    height: auto;
+  }
+}
