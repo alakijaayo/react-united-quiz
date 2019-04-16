@@ -13,7 +13,7 @@
   z-index: 90;
 }
 
-.Toolbar h4 {
+.Toolbar a {
   color: black;
   text-decoration: none;
 }
