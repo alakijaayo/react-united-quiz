@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import LowerToolbar from '../../Components/Navigation/LowerToolbar/lowerToolbar';
-import data from '../../Data/hard.json'
+import data from '../../Data/hard.json';
+import classes from './hard.css';
 
 const questions = data.hard
 const number = questions[Math.floor(Math.random()*questions.length)]
@@ -18,10 +19,10 @@ class Hard extends Component {
     return (
       <div>
         <h1>{number.question}</h1>
-        <button type="button">{number.option_a}</button>
-        <button type="button">{number.option_b}</button>
-        <button type="button">{number.option_c}</button>
-        <button type="button">{number.option_d}</button>
+        <button className={classes.Button} type="button">{number.option_a}</button>
+        <button className={classes.Button} type="button">{number.option_b}</button>
+        <button className={classes.Button} type="button">{number.option_c}</button>
+        <button className={classes.Button} type="button">{number.option_d}</button>
         <LowerToolbar
           number={this.state.number}
           score={this.state.score} />
