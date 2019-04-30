@@ -1,16 +1,86 @@
-.Button {
+.ButtonA {
     background-color: #DA291C;
     outline: none;
     text-align: center;
     border: none;
     color: white;
     font: inherit;
-    padding: 15px;
-    margin: 15px;
+    padding: 20px;
+    margin: 20px;
     font-weight: bold;
+    position: fixed;
+    left: 300px;
+    bottom: 350px;
+    width: 250px;
 }
 
-.Button:hover {
+.ButtonA:hover {
+  background-color: #FBE122;
+  border: none;
+  color: white;
+}
+
+.ButtonB {
+    background-color: #DA291C;
+    outline: none;
+    text-align: center;
+    border: none;
+    color: white;
+    font: inherit;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+    position: fixed;
+    right: 300px;
+    bottom: 350px;
+    width: 250px;
+}
+
+.ButtonB:hover {
+  background-color: #FBE122;
+  border: none;
+  color: white;
+}
+
+.ButtonC {
+    background-color: #DA291C;
+    outline: none;
+    text-align: center;
+    border: none;
+    color: white;
+    font: inherit;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+    position: fixed;
+    left: 300px;
+    top: 350px;
+    width: 250px;
+}
+
+.ButtonC:hover {
+  background-color: #FBE122;
+  border: none;
+  color: white;
+}
+
+.ButtonD {
+    background-color: #DA291C;
+    outline: none;
+    text-align: center;
+    border: none;
+    color: white;
+    font: inherit;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+    position: fixed;
+    right: 300px;
+    top: 350px;
+    width: 250px;
+}
+
+.ButtonD:hover {
   background-color: #FBE122;
   border: none;
   color: white;

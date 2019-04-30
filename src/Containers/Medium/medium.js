@@ -19,10 +19,10 @@ class Medium extends Component {
     return (
       <div>
         <h1>{number.question}</h1>
-        <button className={classes.Button} type="button">{number.option_a}</button>
-        <button className={classes.Button} type="button">{number.option_b}</button>
-        <button className={classes.Button} type="button">{number.option_c}</button>
-        <button className={classes.Button} type="button">{number.option_d}</button>
+        <button className={classes.ButtonA} type="button">{number.option_a}</button>
+        <button className={classes.ButtonB} type="button">{number.option_b}</button>
+        <button className={classes.ButtonC} type="button">{number.option_c}</button>
+        <button className={classes.ButtonD} type="button">{number.option_d}</button>
         <LowerToolbar
           number={this.state.number}
           score={this.state.score} />
