@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import LowerToolbar from '../../Components/Navigation/LowerToolbar/lowerToolbar';
+import data from '../../Data/medium.json'
 
 class Medium extends Component {
   constructor(props) {
@@ -13,7 +14,9 @@ class Medium extends Component {
   render() {
     return (
       <div>
-        <h1>Medium</h1>
+      {data.medium.map((question) => {
+        return <h1>{question.question}</h1>
+      })}
         <LowerToolbar
           number={this.state.number}
           score={this.state.score} />

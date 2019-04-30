@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import LowerToolbar from '../../Components/Navigation/LowerToolbar/lowerToolbar';
+import data from '../../Data/hard.json'
 
 class Hard extends Component {
   constructor(props) {
@@ -13,7 +14,9 @@ class Hard extends Component {
   render() {
     return (
       <div>
-        <h1>Hard</h1>
+      {data.hard.map((question) => {
+        return <h1>{question.correct}</h1>
+      })}
         <LowerToolbar
           number={this.state.number}
           score={this.state.score} />

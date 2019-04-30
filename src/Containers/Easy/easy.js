@@ -1,5 +1,7 @@
+
 import React, { Component } from 'react';
 import LowerToolbar from '../../Components/Navigation/LowerToolbar/lowerToolbar';
+import data from '../../Data/easy.json'
 
 class Easy extends Component {
   constructor(props) {
@@ -13,7 +15,9 @@ class Easy extends Component {
   render() {
     return (
       <div>
-        <h1>Easy</h1>
+        {data.easy.map((question) => {
+          return <h1>{question.question_number}</h1>
+        })}
         <LowerToolbar
           number={this.state.number}
           score={this.state.score} />
