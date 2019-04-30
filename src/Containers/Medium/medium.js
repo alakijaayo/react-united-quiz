@@ -4,7 +4,7 @@ import data from '../../Data/medium.json';
 import classes from './medium.css';
 
 const questions = data.medium
-const number = questions[Math.floor(Math.random()*questions.length)]
+const number = questions[Math.floor(Math.random() * questions.length)]
 
 class Medium extends Component {
   constructor(props) {

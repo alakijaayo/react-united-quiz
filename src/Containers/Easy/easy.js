@@ -4,7 +4,7 @@ import data from '../../Data/easy.json';
 import classes from './easy.css';
 
 const questions = data.easy
-const number = questions[Math.floor(Math.random()*questions.length)]
+const number = questions[Math.floor(Math.random() * questions.length)]
 
 class Easy extends Component {
   constructor(props) {

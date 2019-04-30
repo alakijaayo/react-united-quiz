@@ -4,7 +4,7 @@ import data from '../../Data/hard.json';
 import classes from './hard.css';
 
 const questions = data.hard
-const number = questions[Math.floor(Math.random()*questions.length)]
+const number = questions[Math.floor(Math.random() * questions.length)]
 
 class Hard extends Component {
   constructor(props) {
