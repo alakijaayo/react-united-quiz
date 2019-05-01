@@ -9,9 +9,9 @@
     margin: 20px;
     font-weight: bold;
     position: fixed;
-    left: 300px;
+    left: 250px;
     bottom: 350px;
-    width: 250px;
+    width: 300px;
 }
 
 .ButtonA:hover {
@@ -31,9 +31,9 @@
     margin: 20px;
     font-weight: bold;
     position: fixed;
-    right: 300px;
+    right: 250px;
     bottom: 350px;
-    width: 250px;
+    width: 300px;
 }
 
 .ButtonB:hover {
@@ -53,9 +53,9 @@
     margin: 20px;
     font-weight: bold;
     position: fixed;
-    left: 300px;
+    left: 250px;
     top: 350px;
-    width: 250px;
+    width: 300px;
 }
 
 .ButtonC:hover {
@@ -75,9 +75,9 @@
     margin: 20px;
     font-weight: bold;
     position: fixed;
-    right: 300px;
+    right: 250px;
     top: 350px;
-    width: 250px;
+    width: 300px;
 }
 
 .ButtonD:hover {
