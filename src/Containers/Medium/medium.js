@@ -25,7 +25,7 @@ class Medium extends Component {
   render() {
     return (
       <div>
-        <h1>{this.state.questions.question}</h1>
+        <h1 className={classes.Text}>{this.state.questions.question}</h1>
         <button className={classes.ButtonA} onClick={() => this.handleClick(this.state.questions.option_a)}>{this.state.questions.option_a}</button>
         <button className={classes.ButtonB} onClick={() => this.handleClick(this.state.questions.option_b)}>{this.state.questions.option_b}</button>
         <button className={classes.ButtonC} onClick={() => this.handleClick(this.state.questions.option_c)}>{this.state.questions.option_c}</button>
