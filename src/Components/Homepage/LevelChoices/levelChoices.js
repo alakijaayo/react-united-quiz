@@ -9,9 +9,9 @@ class LevelChoices extends Component {
     return (
       <div className={classes.LevelChoices}>
         <h2>Please choose the Level you wish to play:</h2>
-        <Button><Link to="/easy">Easy</Link></Button>
-        <Button><Link to="/medium">Medium</Link></Button>
-        <Button><Link to="/hard">Hard</Link></Button>
+        <Button><Link class="easy" to="/easy">Easy</Link></Button>
+        <Button><Link class="medium" to="/medium">Medium</Link></Button>
+        <Button><Link class="hard" to="/hard">Hard</Link></Button>
       </div>
     )
   }

@@ -38,4 +38,10 @@ describe('Quiz', () => {
   it('renders the initial question number', () => {
     cy.contains('Question: 0/25')
   })
+
+  it('changes the question number on click of button', () => {
+    cy.get('a.easy').click()
+    cy.get('button.easy__ButtonA__2Jfsp').click()
+    cy.contains('Question: 2/25')
+  })
 })
