@@ -431,6 +431,114 @@
       "option_c": "Jesse Lingard",
       "option_d": "Joe Riley",
       "correct": "Guillermo Varela"
+    },
+    {
+      "question_number": 49,
+      "question": "Including the qualifying round, who was Manchester United's leading scorer in the 1998/99 Champions League?",
+      "option_a": "Paul Scholes",
+      "option_b": "Dwight Yorke",
+      "option_c": "Ryan Giggs",
+      "option_d": "Andy Cole",
+      "correct": "Dwight Yorke"
+    },
+    {
+      "question_number": 50,
+      "question": "How many were scored by Gerard Pique on United's way to winning the 2007/08 Champions League?",
+      "option_a": 4,
+      "option_b": 0,
+      "option_c": 1,
+      "option_d": 2,
+      "correct": 2
+    },
+    {
+      "question_number": 51,
+      "question": "From which club did Manchester United sign Javier Hernandez?",
+      "option_a": "Necaxa",
+      "option_b": "Cruz Azul",
+      "option_c": "Chivas",
+      "option_d": "Club America",
+      "correct": "Chivas"
+    },
+    {
+      "question_number": 52,
+      "question": "From which club did Manchester United sign Lee Sharpe?",
+      "option_a": "Torquay United",
+      "option_b": "Bradford City",
+      "option_c": "Exeter City",
+      "option_d": "Southampton",
+      "correct": "Torquay United"
+    },
+    {
+      "question_number": 53,
+      "question": "Against what club did Mark Hughes get his first senior hat trick for United?",
+      "option_a": "Blackburn Rovers",
+      "option_b": "Aston Villa",
+      "option_c": "Chelsea",
+      "option_d": "Arsenal",
+      "correct": "Aston Villa"
+    },
+    {
+      "question_number": 54,
+      "question": "Sir Alex Ferguson's first club signing was Viv Anderson. Which club was be brought from?",
+      "option_a": "Leicester City",
+      "option_b": "Aston Villa",
+      "option_c": "Chelsea",
+      "option_d": "Arsenal",
+      "correct": "Arsenal"
+    },
+    {
+      "question_number": 55,
+      "question": "Peter Schmeichel scored his only United goal against which Russian club?",
+      "option_a": "FC Lokomotiv Moscow",
+      "option_b": "Rotor Volgograd",
+      "option_c": "Arsenal Tula",
+      "option_d": "Ural Sverdlovsk Oblast",
+      "correct": "Rotor Volgograd"
+    },
+    {
+      "question_number": 56,
+      "question": "What do Cristiano Ronaldo, Eric Cantona, Andrei Kanchelskis, and Juan Sebastian Veron have in common?",
+      "option_a": "All scored on their debut for United",
+      "option_b": "All wore the number 7 shire whilst at United",
+      "option_c": "First players to play for United from their respective countries",
+      "option_d": "All sent off in a Manchester Derby",
+      "correct": "First players to play for United from their respective countries"
+    },
+    {
+      "question_number": 57,
+      "question": "Manchester United signed Karel Poborsky from which club?",
+      "option_a": "České Budějovice",
+      "option_b": "Viktoria Žižkov",
+      "option_c": "Sparta Prague",
+      "option_d": "Slavia Prague",
+      "correct": "Slavia Prague"
+    }
+    {
+      "question_number": 58,
+      "question": "Which Manchester United player was named English Footballer of the Year and PFA Player of the Year in 2000?",
+      "option_a": "Paul Scholes",
+      "option_b": "Dwight Yorke",
+      "option_c": "Roy Keane",
+      "option_d": "David Beckham",
+      "correct": "Roy Keane"
+    },
+    {
+      "question_number": 59,
+      "question": "How many Champions League goals did Ruud Van Nistelrooy score for Manchester United?",
+      "option_a": 36,
+      "option_b": 44,
+      "option_c": 41,
+      "option_d": 39,
+      "correct": 36
+    }
+    {
+      "question_number": 60,
+      "question": "How many Champions League goals did Paul Scholes score for Manchester United?",
+      "option_a": 15,
+      "option_b": 20,
+      "option_c": 25,
+      "option_d": 30,
+      "correct": 25
     }
   ]
 }

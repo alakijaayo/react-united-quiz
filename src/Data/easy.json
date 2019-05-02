@@ -341,6 +341,60 @@
       "option_c": 19,
       "option_d": 39,
       "correct": 7
+    },
+    {
+      "question_number": 39,
+      "question": "Manchester United's mascat is known as _____ The Red?",
+      "option_a": "Fred",
+      "option_b": "Alex",
+      "option_c": "Paul",
+      "option_d": "Norman",
+      "correct": "Fred"
+    },
+    {
+      "question_number": 40,
+      "question": "What was the shirt most often worn by George Best during his career at Manchester United?",
+      "option_a": 8,
+      "option_b": 10,
+      "option_c": 7,
+      "option_d": 11,
+      "correct": 7
+    },
+    {
+      "question_number": 41,
+      "question": "Who was manager of Manchester United between from 1946 to 1969?",
+      "option_a": "Sir Matt Busby",
+      "option_b": "Sir Alex Ferguson",
+      "option_c": "Jose Mourinho",
+      "option_d": "Ron Atkinson",
+      "correct": "Sir Matt Busby"
+    },
+    {
+      "question_number": 42,
+      "question": "Who scored United's goal in the Champions League Final in 2008?",
+      "option_a": "Wayne Rooney",
+      "option_b": "Carlos Tevez",
+      "option_c": "Michael Carrick",
+      "option_d": "Cristiano Ronaldo",
+      "correct": "Cristiano Ronaldo"
+    },
+    {
+      "question_number": 43,
+      "question": "The date was 28th August 2011 and the final result was 8-2. Wayne Rooney scored his 6th hat-trick for club. Which team was Manchester United playing against?",
+      "option_a": "Liverpool",
+      "option_b": "Arsenal",
+      "option_c": "Tottenham Hotspur",
+      "option_d": "West Ham United",
+      "correct": "Arsenal"
+    },
+    {
+      "question_number": 44,
+      "question": "Alex Ferguson is known for his bad temper. In 2003 he kicked a boot, which hit a player and cut him above his eye. The cut required stitches. Who was the player?",
+      "option_a": "David Beckham",
+      "option_b": "Diego Forlan",
+      "option_c": "Wayne Rooney",
+      "option_d": "Ruud Van Nistelrooy",
+      "correct": "David Beckham"
     }
   ]
 }

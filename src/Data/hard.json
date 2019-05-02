@@ -431,6 +431,123 @@
       "option_c": "Paddy McNair",
       "option_d": "Joe Riley",
       "correct": "Joe Riley"
+    },
+    {
+      "question_number": 49,
+      "question": "Who was the first Manchester United player to score a European Cup hat-trick?",
+      "option_a": "George Best",
+      "option_b": "Denis Law",
+      "option_c": "Tommy Taylor",
+      "option_d": "Dennis Viollet",
+      "correct": "Tommy Taylor"
+    },
+    {
+      "question_number": 50,
+      "question": "On their way to winning the 1990/91 European Cup Winners Cup, two United players scored 4 goals. Brian McClair was one, but who was the other?",
+      "option_a": "Mark Hughes",
+      "option_b": "Clayton Blackmore",
+      "option_c": "Lee Sharpe",
+      "option_d": "Steve Bruce",
+      "correct": "Steve Bruce"
+    },
+    {
+      "question_number": 51,
+      "question": "Manchester United signed Danish winger Jesper Olsen from Ajax in 1984. What was the fee paid for him?",
+      "option_a": "£400,000",
+      "option_b": "£200,000",
+      "option_c": "£800,000",
+      "option_d": "£350,000",
+      "correct": "£350,000"
+    },
+    {
+      "question_number": 52,
+      "question": "Who were Utd's last European opponents before the English ban was placed?",
+      "option_a": "Ferencváros",
+      "option_b": "Videoton",
+      "option_c": "Zalaegerszeg",
+      "option_d": "Debrecen",
+      "correct": "Videoton"
+    },
+    {
+      "question_number": 53,
+      "question": "Bailey, Gidman, Albiston, Whiteside, McGrath, Moran, Robson, Strachan, Hughes, Stapleton. Which of the following also started the 1985 FA Cup final for Manchester United?",
+      "option_a": "Jesper Olsen",
+      "option_b": "Graeme Hogg",
+      "option_c": "Alan Brazil",
+      "option_d": "Mike Duxbury",
+      "correct": "Jesper Olsen"
+    },
+    {
+      "question_number": 54,
+      "question": "1964-65: United played Arsenal at Old Trafford. If United won this game they would win the championship with a game in hand. What was the final scoreline?",
+      "option_a": "2-0 Arsenal",
+      "option_b": "3-1 United",
+      "option_c": "4-2 Arsenal",
+      "option_d": "4-0 United",
+      "correct": "3-1 United"
+    },
+    {
+      "question_number": 55,
+      "question": "Who scored Manchester United's goal in the 1-0 victory over Liverpool in the 1979 FA Cup Semi-Final replay?",
+      "option_a": "Martin Buchan",
+      "option_b": "Jimmy Greenhoff",
+      "option_c": "Lou Macari",
+      "option_d": "Arthur Albiston",
+      "correct": "Jimmy Greenhoff"
+    },
+    {
+      "question_number": 56,
+      "question": "Schmeichel, Parker, Irwin, Bruce, Pallister, Cantona, Ince, Keane, Hughes, Giggs. Which of the following also started the 1994 FA Cup final for Manchester United?",
+      "option_a": "Lee Sharpe",
+      "option_b": "Brian McClair",
+      "option_c": "Bryan Robson",
+      "option_d": "Andrei Kanchelskis",
+      "correct": "Andrei Kanchelskis"
+    },
+    {
+      "question_number": 57,
+      "question": "Schmeichel, P.Nevile, Bruce, Pallister, Sharpe, Beckham, Butt, Keane, Cole, Giggs. Which of the following also started the 1995 First Round, 2nd Leg for Manchester United against Rotor Volgograd?",
+      "option_a": "John O'Kane",
+      "option_b": "Terry Cooke",
+      "option_c": "Chris Casper",
+      "option_d": "Andrei Kanchelskis",
+      "correct": "John O'Kane"
+    },
+    {
+      "question_number": 58,
+      "question": "Dimitar Berbatov scored a hat-trick against Liverpool in 2010. Before this match the last hat-trick to be scored in a match between the two teams was in ____?",
+      "option_a": 1998,
+      "option_b": 1970,
+      "option_c": 1946,
+      "option_d": 1967,
+      "correct": 1946
+    },
+    {
+      "question_number": 59,
+      "question": "Bobby Charlton made his final league appearance for Manchester United in 1973, but his day was spoilt by a 1-0 defeat at which ground?",
+      "option_a": "Maine Road",
+      "option_b": "Villa Park",
+      "option_c": "Highbury",
+      "option_d": "Stamford Bridge",
+      "correct": "Stamford Bridge"
+    },
+    {
+      "question_number": 60,
+      "question": "Schmeichel, G.Nevile, P.Nevile, Pallister, May, Beckham, Butt, Keane, Scholes, Cantona. Who else started the 6-3 loss to Southampton?",
+      "option_a": "Karel Poborsky",
+      "option_b": "Ben Thornley",
+      "option_c": "Jordi Cruyff",
+      "option_d": "Brian McClair",
+      "correct": "Jordi Cruyff"
+    },
+    {
+      "question_number": 61,
+      "question": "Gaskell, Dunne, Cantwell, Crerand, Setters, Giles, Quixall, Herd, Law, Charlton. Which of the following also started the 1963 FA Cup final for Manchester United?",
+      "option_a": "Nobby Stiles",
+      "option_b": "Shay Brennan",
+      "option_c": "George Best",
+      "option_d": "Bill Foulkes",
+      "correct": "Bill Foulkes"
     }
   ]
 }
