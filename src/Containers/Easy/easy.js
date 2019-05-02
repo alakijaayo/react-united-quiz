@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import LowerToolbar from '../../Components/Navigation/LowerToolbar/lowerToolbar';
+import Questionnaire from '../../Components/Questionnaire/questionnaire';
 import data from '../../Data/easy.json';
-import classes from './easy.css';
 
 class Easy extends Component {
   constructor(props) {
@@ -23,11 +23,7 @@ class Easy extends Component {
   render() {
     return (
       <div>
-        <h1 className={classes.Text}>{this.state.questions.question}</h1>
-        <button className={classes.ButtonA} onClick={() => this.handleClick(this.state.questions.option_a)}>{this.state.questions.option_a}</button>
-        <button className={classes.ButtonB} onClick={() => this.handleClick(this.state.questions.option_b)}>{this.state.questions.option_b}</button>
-        <button className={classes.ButtonC} onClick={() => this.handleClick(this.state.questions.option_c)}>{this.state.questions.option_c}</button>
-        <button className={classes.ButtonD} onClick={() => this.handleClick(this.state.questions.option_d)}>{this.state.questions.option_d}</button>
+        <Questionnaire questions={this.state.questions} handleClick={this.handleClick} />
         <LowerToolbar
           number={this.state.number}
           score={this.state.score} />

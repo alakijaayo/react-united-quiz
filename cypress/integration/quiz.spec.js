@@ -41,7 +41,25 @@ describe('Quiz', () => {
 
   it('changes the question number on click of button', () => {
     cy.get('a.easy').click()
-    cy.get('button.easy__ButtonA__2Jfsp').click()
+    cy.get('button.questionnaire__ButtonA__31lfI').click()
+    cy.contains('Question: 2/25')
+  })
+
+  it('checks button B works functionally', () => {
+    cy.get('a.medium').click()
+    cy.get('button.questionnaire__ButtonB__1peDj').click()
+    cy.contains('Question: 2/25')
+  })
+
+  it('checks button C works functionally', () => {
+    cy.get('a.hard').click()
+    cy.get('button.questionnaire__ButtonC__uS69z').click()
+    cy.contains('Question: 2/25')
+  })
+
+  it('checks button D works functionally', () => {
+    cy.get('a.easy').click()
+    cy.get('button.questionnaire__ButtonD__2zx7a').click()
     cy.contains('Question: 2/25')
   })
 })
