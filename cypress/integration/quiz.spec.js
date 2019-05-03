@@ -32,11 +32,11 @@ describe('Quiz', () => {
   })
 
   it('renders the initial score', () => {
-    cy.contains('Score: 0/25')
+    cy.contains('Score: /25')
   })
 
   it('renders the initial question number', () => {
-    cy.contains('Question: 0/25')
+    cy.contains('Question: /25')
   })
 
   it('changes the question number on click of button', () => {
