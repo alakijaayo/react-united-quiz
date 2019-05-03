@@ -20,7 +20,7 @@ class Easy extends Component {
     } else this.setState({number: this.state.number + 1})
   }
 
-  isCorrect = (choice) => choice === this.state.questions.correct ? "correct" : "incorrect"
+  isCorrect = (choice) => choice === this.state.questions.correct ? "correct" : "wrong"
 
   render() {
     return (

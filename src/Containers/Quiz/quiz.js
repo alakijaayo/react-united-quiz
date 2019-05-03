@@ -5,7 +5,7 @@ import Easy from '../Easy/easy';
 import Medium from '../Medium/medium';
 import Hard from '../Hard/hard';
 import Correct from '../Correct/correct';
-import Incorrect from '../Incorrect/incorrect';
+import Wrong from '../Wrong/wrong';
 import { Route } from 'react-router-dom';
 
 class Quiz extends Component {
@@ -17,7 +17,7 @@ class Quiz extends Component {
           <Route path="/medium" exact component={Medium} />
           <Route path="/hard" exact component={Hard} />
           <Route path="/correct" exact component={Correct} />
-          <Route path="/incorrect" exact component={Incorrect} />
+          <Route path="/wrong" exact component={Wrong} />
         </Aux>
     )
   }

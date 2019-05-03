@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Incorrect extends Component {
+class Wrong extends Component {
   render() {
     return (
       <h1>Unlucky</h1>
@@ -8,4 +8,4 @@ class Incorrect extends Component {
   }
 }
 
-export default Incorrect
+export default Wrong
