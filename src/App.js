@@ -8,8 +8,20 @@ class App extends Component {
     super(props)
     this.state = {
       number: 0,
-      score: 0,
+      score: 0
     }
+    this.updateNumber = this.updateNumber.bind(this)
+    this.updateScoreAndNumber = this.updateScoreAndNumber.bind(this)
+  }
+
+  updateNumber = () => {
+    this.setState({number: this.state.number + 1})
+    console.log(this.state.number)
+  }
+
+  updateScoreAndNumber = () => {
+    this.setState({number: this.state.number + 1, score: this.state.score + 1})
+    console.log(this.state.score)
   }
 
   render() {
@@ -18,8 +30,12 @@ class App extends Component {
         <div>
           <Layout
             number={this.state.number}
-            score={this.state.score}>
-            <Quiz />
+            score={this.state.score}
+          >
+            <Quiz
+             updateNumber={this.updateNumber}
+             updateScoreAndNumber={this.updateScoreAndNumber}
+            />
           </Layout>
         </div>
       </BrowserRouter>

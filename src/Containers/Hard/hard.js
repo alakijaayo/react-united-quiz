@@ -7,8 +7,6 @@ class Hard extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      number: 1,
-      score: 0,
       questions: data.hard[Math.floor(Math.random() * data.hard.length)]
     }
     this.handleClick = this.handleClick.bind(this)
@@ -16,8 +14,8 @@ class Hard extends Component {
 
   handleClick(choice) {
     if(choice === this.state.questions.correct) {
-      this.setState({number: this.state.number + 1, score: this.state.score + 1})
-    } else this.setState({number: this.state.number + 1})
+      this.props.updateScoreAndNumber()
+    } else this.props.updateNumber()
   }
 
   isCorrect = (choice) => choice === this.state.questions.correct ? "correct" : "wrong"
