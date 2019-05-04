@@ -3,7 +3,6 @@ import Aux from '../../HOC/aux';
 import Welcome from '../../Components/Homepage/Welcome/welcome';
 import Description from '../../Components/Homepage/Description/description';
 import LevelChoices from '../../Components/Homepage/LevelChoices/levelChoices';
-import LowerToolbar from '../../Components/Navigation/LowerToolbar/lowerToolbar';
 
 class Introduction extends Component {
   render () {
@@ -12,7 +11,6 @@ class Introduction extends Component {
           <Welcome />
           <Description />
           <LevelChoices />
-          <LowerToolbar />
         </Aux>
     )
   }
