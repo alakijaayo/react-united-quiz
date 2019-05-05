@@ -10,18 +10,14 @@ class App extends Component {
       number: 0,
       score: 0
     }
-    this.updateNumber = this.updateNumber.bind(this)
-    this.updateScoreAndNumber = this.updateScoreAndNumber.bind(this)
+    this.handleClick = this.handleClick.bind(this)
   }
 
-  updateNumber = () => {
-    this.setState({number: this.state.number + 1})
-    console.log(this.state.number)
-  }
-
-  updateScoreAndNumber = () => {
-    this.setState({number: this.state.number + 1, score: this.state.score + 1})
-    console.log(this.state.score)
+  handleClick(choice, answer) {
+    if(choice === answer) {
+      this.setState({number: this.state.number + 1, score: this.state.score + 1})
+      console.log(this.state.number)
+    } else this.setState({number: this.state.number + 1})
   }
 
   render() {
@@ -33,8 +29,7 @@ class App extends Component {
             score={this.state.score}
           >
             <Quiz
-             updateNumber={this.updateNumber}
-             updateScoreAndNumber={this.updateScoreAndNumber}
+             handleClick={this.handleClick}
             />
           </Layout>
         </div>

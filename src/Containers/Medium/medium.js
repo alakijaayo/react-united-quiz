@@ -9,13 +9,6 @@ class Medium extends Component {
     this.state = {
       questions: data.medium[Math.floor(Math.random() * data.medium.length)]
     }
-    this.handleClick = this.handleClick.bind(this)
-  }
-
-  handleClick(choice) {
-    if(choice === this.state.questions.correct) {
-      this.props.updateScoreAndNumber()
-    } else this.props.updateNumber()
   }
 
   isCorrect = (choice) => choice === this.state.questions.correct ? "correct" : "wrong"
@@ -25,7 +18,7 @@ class Medium extends Component {
       <div>
         <Questionnaire
           questions={this.state.questions}
-          handleClick={this.handleClick}
+          handleClick={this.props.handleClick}
           correct={this.isCorrect} />
         <LowerToolbar
           number={this.state.number}

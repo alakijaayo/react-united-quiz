@@ -13,9 +13,9 @@ class Quiz extends Component {
     return (
         <Aux>
           <Route path="/" exact component={Introduction} />
-          <Route path="/easy" exact render={(props) => <Easy updateNumber={this.props.updateNumber} updateScoreAndNumber={this.props.updateScoreAndNumber} />} />
-          <Route path="/medium" exact render={(props) => <Medium updateNumber={this.props.updateNumber} updateScoreAndNumber={this.props.updateScoreAndNumber} />} />
-          <Route path="/hard" exact render={(props) => <Hard updateNumber={this.props.updateNumber} updateScoreAndNumber={this.props.updateScoreAndNumber} />} />
+          <Route path="/easy" exact render={(props) => <Easy handleClick={this.props.handleClick} />} />
+          <Route path="/medium" exact render={(props) => <Medium handleClick={this.props.handleClick} />} />
+          <Route path="/hard" exact render={(props) => <Hard handleClick={this.props.handleClick} />} />
           <Route path="/correct" exact component={Correct} />
           <Route path="/wrong" exact component={Wrong} />
         </Aux>
