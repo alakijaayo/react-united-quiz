@@ -10,7 +10,7 @@ class Introduction extends Component {
         <Aux>
           <Welcome />
           <Description />
-          <LevelChoices />
+          <LevelChoices gameStart={this.props.gameStart}/>
         </Aux>
     )
   }

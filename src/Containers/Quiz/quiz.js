@@ -12,10 +12,10 @@ class Quiz extends Component {
   render () {
     return (
         <Aux>
-          <Route path="/" exact component={Introduction} />
-          <Route path="/easy" exact render={(props) => <Easy handleClick={this.props.handleClick} />} />
-          <Route path="/medium" exact render={(props) => <Medium handleClick={this.props.handleClick} />} />
-          <Route path="/hard" exact render={(props) => <Hard handleClick={this.props.handleClick} />} />
+          <Route path="/" exact render={(props) => <Introduction gameStart={this.props.gameStart} />} />
+          <Route path="/easy" exact render={(props) => <Easy handleClick={this.props.handleClick}  webpage={this.props.webpage} />} />
+          <Route path="/medium" exact render={(props) => <Medium handleClick={this.props.handleClick}  webpage={this.props.webpage} />} />
+          <Route path="/hard" exact render={(props) => <Hard handleClick={this.props.handleClick}  webpage={this.props.webpage} />} />
           <Route path="/correct" exact component={Correct} />
           <Route path="/wrong" exact component={Wrong} />
         </Aux>

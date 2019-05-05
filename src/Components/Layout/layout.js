@@ -5,24 +5,16 @@ import Toolbar from '../Navigation/Toolbar/toolbar';
 import LowerToolbar from '../Navigation/LowerToolbar/lowerToolbar';
 
 class Layout extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      number: props.number,
-      score: props.score,
-    }
-  }
-
   render() {
     return(
       <Aux>
-        <Toolbar />
+        <Toolbar restart={this.props.restart}/>
         <main className={classes.Content}>
           {this.props.children}
         </main>
         <LowerToolbar
-          number={this.state.number}
-          score={this.state.score}
+          number={this.props.number}
+          score={this.props.score}
         />
       </Aux>
     )

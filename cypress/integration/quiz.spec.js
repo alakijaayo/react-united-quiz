@@ -39,10 +39,8 @@ describe('Quiz', () => {
     cy.contains('Question: 0/25')
   })
 
-  it('answers the qustion correctly', () => {
-    cy.get('a.medium').click()
-    cy.get('a.correct').click({force: true })
-    cy.contains('Correct!')
+  it('sets the first question to one once player starts', () => {
+    cy.get('a.hard').click()
+    cy.contains('Question: 1/25')
   })
-
 })
