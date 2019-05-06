@@ -43,10 +43,4 @@ describe('Quiz', () => {
     cy.get('a.hard').click()
     cy.contains('Question: 1/25')
   })
-
-  it('answers the qustion correctly', () => {
-    cy.get('a.medium').click()
-    cy.get('a.correct').click({ force: true })
-    cy.contains('Correct!')
-  })
 })
