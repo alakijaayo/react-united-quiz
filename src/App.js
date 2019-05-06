@@ -38,6 +38,7 @@ class App extends Component {
              handleClick={this.handleClick}
              gameStart={this.gameStart}
              webpage={this.correct}
+             number={this.state.number}
             />
           </Layout>
         </div>

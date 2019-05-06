@@ -6,6 +6,7 @@ import Medium from '../Medium/medium';
 import Hard from '../Hard/hard';
 import Correct from '../Correct/correct';
 import Wrong from '../Wrong/wrong';
+import Final from '../Final/final';
 import { Route } from 'react-router-dom';
 
 class Quiz extends Component {
@@ -25,8 +26,9 @@ class Quiz extends Component {
           <Route path="/easy" exact render={(props) => <Easy handleClick={this.props.handleClick}  webpage={this.props.webpage} changeLevel={this.changeLevel} />} />
           <Route path="/medium" exact render={(props) => <Medium handleClick={this.props.handleClick}  webpage={this.props.webpage} changeLevel={this.changeLevel} />} />
           <Route path="/hard" exact render={(props) => <Hard handleClick={this.props.handleClick}  webpage={this.props.webpage} changeLevel={this.changeLevel} />} />
-          <Route path="/correct" exact render={(props) => <Correct level={this.state.level} nextQuestion={this.props.gameStart} />} />
-          <Route path="/wrong" exact render={(props) => <Wrong level={this.state.level} nextQuestion={this.props.gameStart} />} />
+          <Route path="/correct" exact render={(props) => <Correct level={this.state.level} nextQuestion={this.props.gameStart} number={this.props.number} />} />
+          <Route path="/wrong" exact render={(props) => <Wrong level={this.state.level} nextQuestion={this.props.gameStart} number={this.props.number} />} />
+          <Route path="/final" exact render={(props) => <Final finalScore={this.props.number} />} />
         </Aux>
     )
   }
