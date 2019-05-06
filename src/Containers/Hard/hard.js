@@ -6,6 +6,7 @@ class Hard extends Component {
   constructor(props) {
     super(props)
     this.state = {
+      level: "hard",
       questions: data.hard[Math.floor(Math.random() * data.hard.length)]
     }
   }
@@ -17,6 +18,7 @@ class Hard extends Component {
           questions={this.state.questions}
           handleClick={this.props.handleClick}
           webpage={this.props.webpage}
+          level={this.state.level}
         />
       </div>
 

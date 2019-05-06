@@ -6,6 +6,7 @@ class Easy extends Component {
   constructor(props) {
     super(props)
     this.state = {
+      level: "easy",
       questions: data.easy[Math.floor(Math.random() * data.easy.length)]
     }
   }
@@ -17,6 +18,7 @@ class Easy extends Component {
           questions={this.state.questions}
           handleClick={this.props.handleClick}
           webpage={this.props.webpage}
+          level={this.state.level}
         />
       </div>
 

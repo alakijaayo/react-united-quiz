@@ -1,0 +1,25 @@
+.Button {
+    background-color: #DA291C;
+    outline: none;
+    text-align: center;
+    border: none;
+    color: white;
+    font: inherit;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+    position: fixed;
+    right: 0px;
+    bottom: 50px;
+    width: 300px;
+}
+
+.ButtonA:hover {
+  background-color: #FBE122;
+  border: none;
+  color: white;
+}
+
+.Text {
+  font-size: 50px;
+}

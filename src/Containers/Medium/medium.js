@@ -6,6 +6,7 @@ class Medium extends Component {
   constructor(props) {
     super(props)
     this.state = {
+      level: "medium",
       questions: data.medium[Math.floor(Math.random() * data.medium.length)]
     }
   }
@@ -17,6 +18,7 @@ class Medium extends Component {
           questions={this.state.questions}
           handleClick={this.props.handleClick}
           webpage={this.props.webpage}
+          level={this.state.level}
         />
       </div>
     )
