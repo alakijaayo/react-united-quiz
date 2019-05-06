@@ -15,8 +15,8 @@ class App extends Component {
 
   handleClick(choice, answer) {
     if(choice === answer) {
-      this.setState({number: this.state.number + 1, score: this.state.score + 1})
-    } else this.setState({number: this.state.number + 1})
+      this.setState({ score: this.state.score + 1})
+    }
   }
 
   correct = (correct, answer) => correct === answer ? "correct" : "wrong"

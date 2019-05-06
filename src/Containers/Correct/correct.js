@@ -10,7 +10,7 @@ class Correct extends Component {
     return (
       <div>
         <h1 className={classes.Text}>{correct}</h1>
-        <Link to={`/${this.props.location.state.level}`}><button className={classes.Button}>Next Question</button></Link>
+        <Link to={`/${this.props.level}`}><button className={classes.Button} onClick={this.props.nextQuestion}>Next Question</button></Link>
       </div>
     )
   }

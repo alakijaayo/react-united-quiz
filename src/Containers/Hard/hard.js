@@ -19,6 +19,7 @@ class Hard extends Component {
           handleClick={this.props.handleClick}
           webpage={this.props.webpage}
           level={this.state.level}
+          changeLevel={this.props.changeLevel}
         />
       </div>
 
