@@ -39,6 +39,7 @@ class App extends Component {
              gameStart={this.gameStart}
              webpage={this.correct}
              number={this.state.number}
+             score={this.state.score}
             />
           </Layout>
         </div>

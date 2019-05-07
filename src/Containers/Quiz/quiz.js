@@ -28,7 +28,7 @@ class Quiz extends Component {
           <Route path="/hard" exact render={(props) => <Hard handleClick={this.props.handleClick}  webpage={this.props.webpage} changeLevel={this.changeLevel} />} />
           <Route path="/correct" exact render={(props) => <Correct level={this.state.level} nextQuestion={this.props.gameStart} number={this.props.number} />} />
           <Route path="/wrong" exact render={(props) => <Wrong level={this.state.level} nextQuestion={this.props.gameStart} number={this.props.number} />} />
-          <Route path="/final" exact render={(props) => <Final finalScore={this.props.number} />} />
+          <Route path="/final" exact render={(props) => <Final finalScore={this.props.score} />} />
         </Aux>
     )
   }
