@@ -26,8 +26,8 @@
 
 @media (max-width: 850px) {
   .Button {
-    position: relative;
-    top: 500px;
-    width: 330px;
+    position: fixed;
+    left: 15px;
+    width: 300px;
   }
 }
