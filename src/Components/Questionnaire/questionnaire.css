@@ -10,7 +10,7 @@
     font-weight: bold;
     position: fixed;
     left: 250px;
-    bottom: 350px;
+    bottom: 400px;
     width: 300px;
 }
 
@@ -32,7 +32,7 @@
     font-weight: bold;
     position: fixed;
     right: 250px;
-    bottom: 350px;
+    bottom: 400px;
     width: 300px;
 }
 
@@ -54,7 +54,7 @@
     font-weight: bold;
     position: fixed;
     left: 250px;
-    top: 350px;
+    top: 400px;
     width: 300px;
 }
 
@@ -76,7 +76,7 @@
     font-weight: bold;
     position: fixed;
     right: 250px;
-    top: 350px;
+    top: 400px;
     width: 300px;
 }
 
