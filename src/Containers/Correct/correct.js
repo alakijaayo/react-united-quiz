@@ -11,9 +11,9 @@ class Correct extends Component {
     let button;
 
     if(questionNumber === 25) {
-      button = <Link to="/final"><button className={classes.Button}>Final Score</button></Link>
+      button = <Link to="/final"><button data-cy="submit" className={classes.Button}>Final Score</button></Link>
     } else {
-      button = <Link to={`/${this.props.level}`}><button className={classes.Button} onClick={this.props.nextQuestion}>Next Question</button></Link>
+      button = <Link to={`/${this.props.level}`}><button data-cy="submit" className={classes.Button} onClick={this.props.nextQuestion}>Next Question</button></Link>
     }
 
     return (

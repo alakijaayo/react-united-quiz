@@ -10,7 +10,7 @@
     font-weight: bold;
     position: fixed;
     left: 250px;
-    bottom: 400px;
+    bottom: 350px;
     width: 300px;
 }
 
@@ -32,7 +32,7 @@
     font-weight: bold;
     position: fixed;
     right: 250px;
-    bottom: 400px;
+    bottom: 350px;
     width: 300px;
 }
 
@@ -99,21 +99,21 @@
 
   .ButtonB {
     position: inherit;
-    left: 80px;
+    left: 70px;
     bottom: 270px;
     width: 330px;
   }
 
   .ButtonC {
     position: inherit;
-    left: 80px;
+    left: 70px;
     top: 450px;
     width: 330px;
   }
 
   .ButtonD {
     position: inherit;
-    left: 80px;
+    left: 70px;
     top: 530px;
     width: 330px;
   }

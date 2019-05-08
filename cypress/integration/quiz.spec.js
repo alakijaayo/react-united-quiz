@@ -43,4 +43,34 @@ describe('Quiz', () => {
     cy.get('a.hard').click()
     cy.contains('Question: 1/25')
   })
+
+  it('answers the qustion correctly', () => {
+   cy.get('a.medium').click()
+   cy.get('[data-cy=correct]').click()
+   cy.contains('Score: 1/25')
+  })
+
+  it('takes the user to the next question', () => {
+    cy.get('a.hard').click()
+    cy.get('[data-cy=correct]').click()
+    cy.get('[data-cy=submit]').click()
+    cy.contains('Question: 2/25')
+  })
+
+  it('resets the question number when player clicks home', () => {
+    cy.get('a.medium').click()
+    cy.get('[data-cy=correct]').click()
+    cy.get('[data-cy=submit]').click()
+    cy.get('a.home').click()
+    cy.contains('Question: 0/25')
+  })
+
+  it('resets the score when player clicks home', () => {
+    cy.get('a.hard').click()
+    cy.get('[data-cy=correct]').click()
+    cy.get('[data-cy=submit]').click()
+    cy.get('a.home').click()
+    cy.contains('Question: 0/25')
+  })
+
 })
