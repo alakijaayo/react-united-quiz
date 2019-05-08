@@ -86,32 +86,160 @@
   color: white;
 }
 
-@media (max-width: 850px) {
+@media (801px <= height <= 812px) {
   .Text {
     font-size: 20px;
   }
 
   .ButtonA {
     left: 0px;
-    bottom: 500px;
+    bottom: 390px;
     width: 330px;
   }
 
   .ButtonB {
     left: 0px;
-    bottom: 410px;
+    bottom: 300px;
     width: 330px;
   }
 
   .ButtonC {
     left: 0px;
-    top: 400px;
+    top: 500px;
     width: 330px;
   }
 
   .ButtonD {
     left: 0px;
-    top: 490px;
+    top: 590px;
     width: 330px;
+  }
+}
+
+@media (820px <= height <= 824px) {
+  .Text {
+    font-size: 20px;
+  }
+
+  .ButtonA {
+    left: 20px;
+    bottom: 400px;
+    width: 330px;
+  }
+
+  .ButtonB {
+    left: 20px;
+    bottom: 310px;
+    width: 330px;
+  }
+
+  .ButtonC {
+    left: 20px;
+    top: 510px;
+    width: 330px;
+  }
+
+  .ButtonD {
+    left: 20px;
+    top: 600px;
+    width: 330px;
+  }
+}
+
+@media (735px <= height <= 737px) {
+  .Text {
+    font-size: 20px;
+  }
+
+  .ButtonA {
+    left: 20px;
+    bottom: 350px;
+    width: 330px;
+  }
+
+  .ButtonB {
+    left: 20px;
+    bottom: 260px;
+    width: 330px;
+  }
+
+  .ButtonC {
+    left: 20px;
+    top: 470px;
+    width: 330px;
+  }
+
+  .ButtonD {
+    left: 20px;
+    top: 560px;
+    width: 330px;
+  }
+}
+
+@media (729px <= height <= 732px) {
+  .Text {
+    font-size: 20px;
+  }
+
+  .ButtonA {
+    left: 20px;
+    bottom: 400px;
+    width: 330px;
+  }
+
+  .ButtonB {
+    left: 20px;
+    bottom: 300px;
+    width: 330px;
+  }
+
+  .ButtonC {
+    left: 20px;
+    top: 440px;
+    width: 330px;
+  }
+
+  .ButtonD {
+    left: 20px;
+    top: 540px;
+    width: 330px;
+  }
+}
+
+@media (665px <= height <= 668px) {
+  .Text {
+    font-size: 18px;
+  }
+
+  .ButtonA {
+    left: 5px;
+    bottom: 350px;
+    width: 330px;
+    padding: 15px;
+    margin: 15px;
+  }
+
+  .ButtonB {
+    left: 5px;
+    bottom: 270px;
+    width: 330px;
+    padding: 15px;
+    margin: 15px;
+  }
+
+  .ButtonC {
+    left: 5px;
+    top: 400px;
+    width: 330px;
+    padding: 15px;
+    margin: 15px;
+  }
+
+  .ButtonD {
+    left: 5px;
+    top: 480px;
+    width: 330px;
+    padding: 15px;
+    margin: 15px;
   }
 }
