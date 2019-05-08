@@ -14,7 +14,7 @@
     width: 300px;
 }
 
-.ButtonA:hover {
+.Button:hover {
   background-color: #FBE122;
   border: none;
   color: white;
@@ -22,4 +22,12 @@
 
 .Text {
   font-size: 50px;
+}
+
+@media (max-width: 850px) {
+  .Button {
+    position: relative;
+    top: 500px;
+    width: 330px;
+  }
 }
